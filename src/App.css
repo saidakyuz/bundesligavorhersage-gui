@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: url("./docs/background.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +39,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+.main {
+  background-color: rgb(223, 62, 62);
+  height: 100%;
+  width: 100%;
+}
+
+.form-submit {
+  text-align: -webkit-center;
+}
+
+.form {
+  height: 20em;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsla(7, 29%, 23%, 0.45);
+  margin-top: 2em;
+  width: 90%;
+  border-radius: 1em;
+}
+
+.selectBox {
+  margin: 0.5em;
+  min-width: 15em;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+}
+
+.teamLogo {
+  margin: 0.5em;
+  border-radius: 1em;
 }
